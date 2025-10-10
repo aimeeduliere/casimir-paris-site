@@ -1,0 +1,99 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: false
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: "https://casimir-paris.com"
+display_url: "https://casimir-paris.com"
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "site"
+    label: "Contenu du site"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - file: "content/site.json"
+        label: "Texte & visuel — Site Casimir"
+        name: "site_content"
+        fields:
+          - label: "Titre & Tagline"
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: "Titre (onglet)", name: "site_title", widget: "string"}
+              - {label: "Sous-texte du logo", name: "brand_tagline", widget: "string"}
+          - label: "Thème"
+            name: "theme"
+            widget: "object"
+            fields:
+              - {label: "Couleur du texte (ink)", name: "ink", widget: "string", default: "#153E2C"}
+              - {label: "Couleur d'accent (accent)", name: "accent", widget: "string", default: "#A8C3A3"}
+          - label: "Accueil (Hero)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Titre — partie gauche", name: "title_prefix", widget: "string"}
+              - {label: "Titre — partie en surbrillance", name: "title_highlight", widget: "string"}
+              - {label: "Paragraphe d'intro", name: "intro", widget: "text"}
+              - {label: "Texte du bouton", name: "cta_label", widget: "string"}
+          - label: "Piliers (3 cartes)"
+            name: "pillars"
+            widget: "list"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Texte", name: "text", widget: "text"}
+          - label: "Services & Tarifs"
+            name: "services"
+            widget: "object"
+            fields:
+              - {label: "Introduction", name: "intro", widget: "text"}
+              - label: "Chasse immobilière"
+                name: "chasse"
+                widget: "object"
+                fields:
+                  - {label: "Titre", name: "title", widget: "string"}
+                  - {label: "Points (liste)", name: "bullets", widget: "list", field: {label: "Point", name: "point", widget: "string"}}
+                  - {label: "Honoraires (texte)", name: "fees", widget: "string"}
+              - label: "Vente"
+                name: "vente"
+                widget: "object"
+                fields:
+                  - {label: "Titre", name: "title", widget: "string"}
+                  - {label: "Points (liste)", name: "bullets", widget: "list", field: {label: "Point", name: "point", widget: "string"}}
+                  - {label: "Honoraires (texte)", name: "fees", widget: "string"}
+          - label: "Réalisations (cartes)"
+            name: "realisations"
+            widget: "list"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Texte", name: "text", widget: "text"}
+          - label: "Zones (optionnel — HTML simple autorisé)"
+            name: "zones"
+            widget: "list"
+            field: {label: "Bloc", name: "bloc", widget: "text"}
+          - label: "Témoignages"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - {label: "Citation", name: "quote", widget: "text"}
+              - {label: "Auteur", name: "author", widget: "string"}
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Téléphone", name: "phone", widget: "string"}
+              - {label: "E‑mail", name: "email", widget: "string"}
+              - {label: "Zone", name: "zone", widget: "string"}
+              - {label: "Form action (Formspree)", name: "form_action", widget: "string"}
+          - label: "Mentions (footer)"
+            name: "legal"
+            widget: "object"
+            fields:
+              - {label: "Ligne de mentions (footer)", name: "footer_line", widget: "text"}
