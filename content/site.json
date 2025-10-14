@@ -1,54 +1,13 @@
 {
+  "contact": {
+    "phone": "+33 6 72 28 36 65",
+    "email": "aimeeduliere@gmail.com",
+    "zone": "Paris & Petite couronne",
+    "form_action": "https://formspree.io/f/xnngbqrp"
+  },
   "meta": {
     "site_title": "Casimir",
-    "brand_tagline": "Immobilier • Paris & Petite couronne"
-  },
-  "theme": {
-    "ink": "#153E2C",
-    "accent": "#A8C3A3"
-  },
-  "hero": {
-    "title_prefix": "Votre projet de vie,",
-    "title_highlight": "notre mission",
-    "intro": "Agent immobilier & chasseur de biens à Paris et petite couronne. Une approche humaine, sur‑mesure, pour trouver ou vendre au bon prix — en toute sérénité.",
-    "cta_label": "Parler de votre projet"
-  },
-  "pillars": [
-    {
-      "title": "Écouter",
-      "text": "Comprendre le projet, le budget, le rythme et vos non‑négociables."
-    },
-    {
-      "title": "Accompagner",
-      "text": "Recherche proactive, visites ciblées, conseils objectifs et négociation."
-    },
-    {
-      "title": "Concrétiser",
-      "text": "Du compromis à l'acte, jusqu'à la remise des clés — sans stress."
-    }
-  ],
-  "services": {
-    "intro": "Que vous cherchiez votre bien idéal ou souhaitiez vendre au mieux, je vous accompagne avec méthode et présence.",
-    "chasse": {
-      "title": "Chasse immobilière (Acheteurs)",
-      "bullets": [
-        "Brief précis & veille quotidienne",
-        "Présélection & visites groupées",
-        "Analyse objective & offre",
-        "Négociation & accompagnement notaire"
-      ],
-      "fees": "Honoraires : 1,2% TTC du prix d'achat, minimum 6 000 € TTC."
-    },
-    "vente": {
-      "title": "Vente (Vendeurs)",
-      "bullets": [
-        "Estimation juste & conseil valorisation",
-        "Photos pros & diffusion multicanale",
-        "Qualification des acheteurs",
-        "Négociation & suivi administratif"
-      ],
-      "fees": "Honoraires : 2% TTC du prix de vente, minimum 6 000 € TTC."
-    }
+    "brand_tagline": "Immobilier • Paris"
   },
   "realisations": [
     {
@@ -69,6 +28,24 @@
     "<strong>Hauts‑de‑Seine (92)</strong><br>Neuilly, Levallois, Boulogne, Issy, Courbevoie…",
     "<strong>Seine‑Saint‑Denis (93) & Val‑de‑Marne (94)</strong><br>Montreuil, Vincennes, Saint‑Mandé, Saint‑Ouen, Ivry…"
   ],
+  "theme": {
+    "ink": "#153E2C",
+    "accent": "#A8C3A3"
+  },
+  "pillars": [
+    {
+      "title": "Écouter et conseiller",
+      "text": "Notre force est l'écoute. Vous comprendre, vous deviner, vous cerner. Se mettre à votre place pour mieux vous conseiller et agir en cohérence. "
+    },
+    {
+      "title": "Action",
+      "text": "Nous avons un but commun : concrétiser votre projet dans les meilleurs délais. \nRecherche ou vente, nous avons un fonctionnement rodé à l'exercice."
+    },
+    {
+      "title": "Concrétiser",
+      "text": "Du compromis à l'acte, jusqu'à la remise des clés — sans stress."
+    }
+  ],
   "testimonials": [
     {
       "quote": "“Une écoute précieuse et un accompagnement sans faille. Nous avons trouvé en trois semaines !”",
@@ -83,13 +60,36 @@
       "author": "Yasmine A."
     }
   ],
-  "contact": {
-    "phone": "+33 6 12 34 56 78",
-    "email": "aimeeduliere@gmail.com",
-    "zone": "Paris & Petite couronne",
-    "form_action": "https://formspree.io/f/xnngbqrp"
-  },
   "legal": {
     "footer_line": "SASU SAS CASIMIR — 40, rue Palloy, 92110 Clichy — RCS Nanterre 982 013 864 — Carte Transaction CP19 2012 024 000 000 051 (CCI Paris IDF) — RCP Galian / MMA IARD Assurances."
+  },
+  "hero": {
+    "title_prefix": "Votre projet de vie,",
+    "title_highlight": "notre mission",
+    "intro": "Chasseur de biens & agent immobilier à Paris. \nSur-mesure : écoute, conseil, action !",
+    "cta_label": "Aidez-moi !"
+  },
+  "services": {
+    "intro": "Que vous cherchiez votre bien idéal ou souhaitiez vendre au mieux, je vous accompagne avec méthode et présence et me rémunère au succès uniquement.",
+    "chasse": {
+      "title": "Chasse immobilière (Acheteurs)",
+      "bullets": [
+        "Brief précis & veille quotidienne",
+        "Présélection & visites groupées",
+        "Analyse objective & offre",
+        "Négociation & accompagnement notaire"
+      ],
+      "fees": "Honoraires : 1,2% TTC du prix d'achat, minimum 6 000 € TTC."
+    },
+    "vente": {
+      "title": "Vente (Vendeurs)",
+      "bullets": [
+        "Estimation juste & conseil valorisation",
+        "Photos pros & diffusion multicanale",
+        "Qualification des acheteurs",
+        "Négociation & suivi administratif"
+      ],
+      "fees": "Honoraires : 2% TTC du prix de vente, minimum 6 000 € TTC."
+    }
   }
 }
