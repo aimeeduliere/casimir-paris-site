@@ -74,22 +74,23 @@
     "chasse": {
       "title": "Chasse immobilière (Acheteurs)",
       "bullets": [
-        "Brief précis & veille quotidienne",
-        "Présélection & visites groupées",
-        "Analyse objective & offre",
-        "Négociation & accompagnement notaire"
+        "Cadrage du projet et conseils",
+        "Veille quotidienne, présélection & visites",
+        "Analyse objective, négociation & offre",
+        "Accompagnement notaire",
+        "Carnet d’adresses d’experts (travaux, architecte, décoration, courtier, etc)"
       ],
-      "fees": "Honoraires : 1,2% TTC du prix d'achat, minimum 6 000 € TTC."
+      "fees": "Honoraires : 1,2% TTC du prix d'achat, minimum de 6 000 € TTC."
     },
     "vente": {
       "title": "Vente (Vendeurs)",
       "bullets": [
         "Estimation juste & conseil valorisation",
         "Photos pros & diffusion multicanale",
-        "Qualification des acheteurs",
+        "Qualification des acheteurs (financement et motivation)",
         "Négociation & suivi administratif"
       ],
-      "fees": "Honoraires : 2% TTC du prix de vente, minimum 6 000 € TTC."
+      "fees": "Honoraires : 2% TTC du prix de vente, minimum de 6 000 € TTC."
     }
   }
 }
