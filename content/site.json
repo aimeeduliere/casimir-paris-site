@@ -64,9 +64,9 @@
     "footer_line": "SASU SAS CASIMIR — 40, rue Palloy, 92110 Clichy — RCS Nanterre 982 013 864 — Carte Transaction CP19 2012 024 000 000 051 (CCI Paris IDF) — RCP Galian / MMA IARD Assurances."
   },
   "hero": {
-    "title_prefix": "Votre projet de vie,",
-    "title_highlight": "notre mission",
-    "intro": "Chasseur & agent immobilier. \nSur-mesure : écoute, conseil, action !",
+    "title_prefix": "Chasseur",
+    "title_highlight": " & agent immobilier",
+    "intro": "Sur-mesure : écoute, conseil, action !",
     "cta_label": "Aidez-moi !"
   },
   "services": {
