@@ -26,9 +26,24 @@
   text-align: center;
   display: block;
 }
-    nav a:first-child{margin-left:35px;text-decoration:none;color:var(--ink);font-size:18px;letter-spacing: 0.5px;font-weight:500
+    .nav a, nav a{
+  margin-left:35px;
+  text-decoration:none !important;
+  color:var(--ink) !important;
+  font-size:18px;
+  font-weight:500;
 }
-    nav a:hover{color:#0e2419}
+.nav a:first-child, nav a:first-child{
+  margin-left:0;
+}
+.nav a:visited, nav a:visited{
+  color:var(--ink) !important;
+  text-decoration:none !important;
+}
+.nav a:hover, nav a:hover{
+  text-decoration:underline;
+  color:var(--ink) !important;
+}
     .cta{
   display:inline-block;
   background:white;
