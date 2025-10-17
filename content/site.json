@@ -11,16 +11,24 @@
   },
   "realisations": [
     {
-      "title": "2‑pièces lumineux – Paris 11e",
-      "text": "Dossier complet, visites ciblées, négociation réussie. Délai total : ~45 jours."
+      "title": "Chasse",
+      "text": "Client : premier achat solo\nObjectif : 2 pièces pépite avec vraie vue dégagée et expo sud\nTrouvé en : 1 mois - 3 visites\nAchat : vue 360° Paris - 2 terrasses - Dernier étage - 45m2 - 2 ch"
     },
     {
-      "title": "Maison familiale – Saint‑Mandé",
-      "text": "Valorisation soignée, stratégie d'offres, signature sereine."
+      "title": "Vente",
+      "text": "Studio 31 m2 dans le 17ème\nVendu en 3 visites\nFinancement acquéreur vérifié en amont\n"
     },
     {
-      "title": "Loft réhabilité – Montreuil",
-      "text": "Accompagnement acheteur de A à Z, financement sécurisé."
+      "title": "Vente ",
+      "text": "Appartement 84 m2 - Paris 9ème\nVendu en 6 visites\nOffre au prix sans conditions"
+    },
+    {
+      "title": "Chasse ",
+      "text": "Client : premier achat solo\nObjectif :  - de 10k€/m2, dernier étage (asc), vue dégagée, 2 pièces de 35 m2\n7 visites\nAchat : 9 300 € / m2, 2 pièces à rénover, 37m2, 6ème étage (asc), vue sur le ciel"
+    },
+    {
+      "title": "Chasse",
+      "text": "Client : père solo avec grands ados\nObjectif : appartement familial (3ch), 8ème ou 17ème, moins de 2 M€, haussmannien\n11 visites\nAchat : 146 m2 à rénover, haussmannien de grand standing, bonus chambre de service, 11 850 € / m2 à 400m du Parc Monceau"
     }
   ],
   "zones": [
@@ -38,12 +46,12 @@
       "text": "Notre force est l'écoute. Vous comprendre, vous deviner, vous cerner. Se mettre à votre place pour mieux vous conseiller et agir en cohérence. "
     },
     {
-      "title": "Mener à bien le projet",
-      "text": "Nous avons un but commun : concrétiser votre projet dans les meilleurs délais. \nRecherche ou vente, nous avons un fonctionnement rodé à l'exercice.\nUn seul mot : action !"
+      "title": "Réussir votre projet",
+      "text": "Nous avons un but commun : concrétiser votre projet dans les meilleurs délais et de la manière la plus agréable possible. \nRecherche ou vente, nous avons un fonctionnement rodé à l'exercice.\nUn seul mot : action !"
     },
     {
       "title": "Long-term relationship",
-      "text": "De la définition du projet jusqu'à la signature chez le notaire avec remise des clés, nous sommes à vos côté et vous guidons. \n"
+      "text": "De la définition du projet jusqu'à la signature chez le notaire avec remise des clés, nous sommes à vos côté et vous guidons étape par étape. \n"
     }
   ],
   "testimonials": [
@@ -61,7 +69,7 @@
     }
   ],
   "legal": {
-    "footer_line": "SASU SAS CASIMIR — 40, rue Palloy, 92110 Clichy — RCS Nanterre 982 013 864 — Carte Transaction CP19 2012 024 000 000 051 (CCI Paris IDF) — RCP Galian / MMA IARD Assurances."
+    "footer_line": "SAS CASIMIR — 40, rue Palloy, 92110 Clichy — RCS Nanterre 982 013 864 — Carte Transaction CP19 2012 024 000 000 051 (CCI Paris IDF) — RCP Galian / MMA IARD Assurances."
   },
   "hero": {
     "title_prefix": "Chasseur",
