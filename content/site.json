@@ -42,16 +42,16 @@
   },
   "pillars": [
     {
-      "title": "Écouter et conseiller",
-      "text": "Notre force est l'écoute. Vous comprendre, vous deviner, vous cerner. Se mettre à votre place pour mieux vous conseiller et agir en cohérence. "
+      "title": "Chasse immobilière",
+      "text": "Vous manquez de temps, d'expertise ou êtes à l'étranger ?\nJe recherche, sélectionne et visite pour vous les biens qui correspondent parfaitement à votre projet.\nObjectif : vous faire gagner du temps et éviter les erreurs."
     },
     {
-      "title": "Réussir votre projet",
-      "text": "Nous avons un but commun : concrétiser votre projet dans les meilleurs délais et de la manière la plus agréable possible. \nRecherche ou vente, nous avons un fonctionnement rodé à l'exercice.\nUn seul mot : action !"
+      "title": "Vente immobilière",
+      "text": "Vous préférez déléguer votre vente ?\nBénéficiez de l’accompagnement complet d’une agence indépendante, humaine et réactive.\n"
     },
     {
-      "title": "Long-term relationship",
-      "text": "De la définition du projet jusqu'à la signature chez le notaire avec remise des clés, nous sommes à vos côté et vous guidons étape par étape. \n"
+      "title": "Coaching immobilier",
+      "text": "Vous souhaitez gérer vous-même votre achat ou votre vente ?\nJe vous accompagne pas à pas : estimation, stratégie, négociation, relecture de documents, carnet d'adresses de professionnels…\nApprenez à piloter votre projet avec un professionnel expérimenté à vos côtés.\n"
     }
   ],
   "testimonials": [
@@ -72,10 +72,10 @@
     "footer_line": "SAS CASIMIR — 40, rue Palloy, 92110 Clichy — RCS Nanterre 982 013 864 — Carte Transaction CP19 2012 024 000 000 051 (CCI Paris IDF) — RCP Galian / MMA IARD Assurances."
   },
   "hero": {
-    "title_prefix": "Chasseur",
-    "title_highlight": " & agent immobilier",
-    "intro": "Sur-mesure : écoute, conseil, action !",
-    "cta_label": "Aidez-moi !"
+    "title_prefix": "Chasseur, agent ",
+    "title_highlight": " & coach immobilier",
+    "intro": "Pour être accompagné, formé ou représenté selon vos besoins.",
+    "cta_label": "Découvrir nos services"
   },
   "services": {
     "intro": "Que vous cherchiez votre bien idéal ou souhaitiez vendre au mieux, nous vous accompagnons avec méthode et présence. Notre rémunération est au succès uniquement.",
