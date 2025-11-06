@@ -3,14 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Casimir – Chasseur & Agent immobilier</title>
-<meta name="description" content="Chasse immobilière et mandat de vente à Paris & Petite couronne. Conseils clairs, suivi rapide, résultats concrets.">
+<title>Casimir – Chasseur & agent immobilier</title>
+<meta name="description" content="Chasseur et agent immobilier à Paris & Petite couronne. Pour être accompagné, formé ou représenté selon vos besoins.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{--ink:#153E2C;--accent:#A8C3A3;--muted:#f6f8f7;--maxw:1120px}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:var(--ink);background:#fff}
 .container{max-width:var(--maxw);margin-inline:auto;padding:0 20px}
 header{position:sticky;top:0;z-index:20;background:#ffffffcc;border-bottom:1px solid #e6e9ea;backdrop-filter:saturate(1.2) blur(6px)}
@@ -19,42 +18,34 @@ header{position:sticky;top:0;z-index:20;background:#ffffffcc;border-bottom:1px s
 .brand-name{font-family:"Playfair Display",serif;font-size:clamp(40px,6vw,64px);line-height:1;font-weight:600}
 .brand-tag{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#667;margin-top:2px;align-self:center;text-align:center}
 .nav a{margin-left:35px;text-decoration:none;color:var(--ink);font-size:18px;font-weight:500}
-.nav a:first-child{margin-left:0}
-.nav a:hover{text-decoration:underline}
+.nav a:first-child{margin-left:0}.nav a:hover{text-decoration:underline}
 .cta{display:inline-block;background:#fff;color:#0e2419;padding:12px 18px;border-radius:14px;text-decoration:none;font-weight:600;border:3px solid var(--accent);font-size:18px}
 .cta:hover{background:var(--accent);color:#fff}
 section{scroll-margin-top:86px}
-.hero{min-height:calc(100vh - 80px);background:url('/vue-toureiffel-paysage.jpg') center/cover no-repeat;display:flex;align-items:center;justify-content:center;padding:40px 16px}
-.hero .card{max-width:900px;margin:0 auto;text-align:center;background:rgba(255,255,255,.75);backdrop-filter:saturate(140%) blur(6px);border:1px solid rgba(0,0,0,.05);border-radius:18px;padding:40px 16px}
-.hero h1{margin:0 0 16px 0;font-family:"Playfair Display",serif;font-size:clamp(32px,5vw,52px)}
-.hero p{margin:0 0 24px 0;font-size:1.12rem}
-.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}
+.hero{min-height:calc(70vh);display:flex;align-items:center;justify-content:center;padding:56px 16px}
+.hero .card{max-width:880px;margin:0 auto;text-align:center;background:rgba(255,255,255,.8);backdrop-filter:saturate(140%) blur(6px);border:1px solid rgba(0,0,0,.05);border-radius:18px;padding:40px 16px}
+.hero h1{margin:0 0 16px 0;font-family:"Playfair Display",serif;font-size:clamp(38px,7vw,80px)}
+.hero p{margin:0 0 24px 0;font-size:1.15rem}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:28px}
 .card{border:1px solid #e6e9ea;border-radius:16px;padding:18px;background:#fff}
-.card h3{margin:0 0 6px 0;font-size:18px}
-.section{padding:64px 0}
-.section h2{font-family:"Playfair Display",serif;font-size:clamp(26px,3vw,36px);margin:0 0 8px}
+.card h3{margin:0 0 8px 0;font-size:20px}
+.section{padding:64px 0}.section h2{font-family:"Playfair Display",serif;font-size:clamp(26px,3vw,36px);margin:0 0 8px}
 .muted{background:var(--muted)}
-.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.list{padding-left:18px;margin:10px 0}
-.list li{margin:6px 0}
+.list{padding-left:18px;margin:10px 0}.list li{margin:6px 0}
 input,textarea{width:100%;padding:12px 14px;border:1px solid #dfe5e7;border-radius:12px;font:inherit}
 textarea{min-height:120px}
 footer{border-top:1px solid #e6e9ea;background:#fff}
 .foot{padding:26px 0;display:grid;gap:18px;grid-template-columns:1.2fr .9fr .9fr}
 .foot h4{margin:0 0 8px 0;font-size:16px}
 .fine{font-size:12px;color:#556}
-@media (max-width:860px){
-  .pillars,.grid-2,.grid-3{grid-template-columns:1fr}
-  .nav{gap:10px}
-}
+@media (max-width:860px){.grid-2{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <header>
   <div class="container nav" role="navigation" aria-label="Navigation principale">
-    <a class="brand" href="#accueil"><span class="brand-name">Casimir</span><span class="brand-tag">Immobilier • Paris</span></a>
-    <nav><a href="#accueil">Accueil</a><a href="#services">Services & Tarifs</a><a href="#contact">Contact</a></nav>
+    <a class="brand" href="#accueil"><span class="brand-name">Casimir</span><span class="brand-tag">Immobilier • Paris & Petite couronne</span></a>
+    <nav><a href="#accueil">Accueil</a><a href="#services">Services</a><a href="#contact">Contact</a></nav>
     <a class="cta" href="#contact">Contact</a>
   </div>
 </header>
@@ -62,41 +53,25 @@ footer{border-top:1px solid #e6e9ea;background:#fff}
 <main id="accueil">
   <section class="hero" aria-label="Accueil">
     <div class="card">
-      <h1>Chasseur &amp; agent immobilier à <em>Paris</em></h1>
-      <p>Accompagnement clair, réactif et sur-mesure pour acheter ou vendre sereinement.</p>
+      <h1>Chasseur &amp; agent immobilier</h1>
+      <p>Pour être accompagné, formé ou représenté selon vos besoins.</p>
       <p><a class="cta" href="#services">Découvrir nos services</a></p>
-      <div class="pillars" aria-label="Approche en trois étapes">
-        <div class="card"><h3>Conseiller</h3><p>Cadrage du projet, critères, budget, faisabilité.</p></div>
-        <div class="card"><h3>Agir</h3><p>Veille active, visites qualifiées, dossiers complets.</p></div>
-        <div class="card"><h3>Négocier</h3><p>Analyse objective et négociation au meilleur prix.</p></div>
-      </div>
     </div>
   </section>
 
   <section id="services" class="section muted" aria-label="Services & Tarifs">
     <div class="container">
       <h2>Services & Tarifs</h2>
-      <p>Que vous cherchiez votre bien idéal ou souhaitiez vendre au meilleur prix, je vous accompagne à chaque étape.</p>
-      <div class="grid-2" style="margin-top:24px">
+      <p style="font-size:1.1rem;margin-bottom:24px">Que vous cherchiez votre bien idéal ou souhaitiez vendre au meilleur prix, je vous accompagne à chaque étape.</p>
+      <div class="grid-2">
         <div class="card" style="border-top:4px solid var(--accent);border-radius:14px 14px 16px 16px">
-          <h3>Chasse immobilière (acquéreurs)</h3>
-          <ul class="list">
-            <li>Cadrage du projet et conseils</li>
-            <li>Veille quotidienne, présélection & visites</li>
-            <li>Analyse objective, négociation & offre</li>
-            <li>Accompagnement notaire</li>
-            <li>Carnet d’adresses (travaux, architecte, courtier…)</li>
-          </ul>
+          <h3>Chasse immobilière</h3>
+          <p>Vous manquez de temps, d'expertise ou êtes à l'étranger&nbsp;? Je recherche, sélectionne et visite pour vous les biens qui correspondent parfaitement à votre projet. Objectif&nbsp;: vous faire gagner du temps et éviter les erreurs.</p>
           <p class="fine" style="font-style:italic;margin-top:8px">Honoraires : 1,2% TTC du prix d'achat (min. 6 000 € TTC).</p>
         </div>
         <div class="card" style="border-top:4px solid var(--accent);border-radius:14px 14px 16px 16px">
-          <h3>Vente immobilière (vendeurs)</h3>
-          <ul class="list">
-            <li>Estimation juste & conseil valorisation</li>
-            <li>Photos pros & diffusion multi-plateformes</li>
-            <li>Visites & qualification des acheteurs</li>
-            <li>Négociation & suivi administratif</li>
-          </ul>
+          <h3>Vente immobilière</h3>
+          <p>Vous préférez déléguer votre vente&nbsp;? Bénéficiez de l’accompagnement complet d’une agence indépendante, humaine et réactive.</p>
           <p class="fine" style="font-style:italic;margin-top:8px">Honoraires : 2% TTC du prix de vente (min. 6 000 € TTC).</p>
         </div>
       </div>
@@ -109,7 +84,7 @@ footer{border-top:1px solid #e6e9ea;background:#fff}
       <h2>Contact</h2>
       <div class="grid-2" style="align-items:start;margin-top:10px">
         <div>
-          <p><strong>Tél.</strong> <a href="tel:+33612345678">+33 6 12 34 56 78</a><br>
+          <p><strong>Tél.</strong> <a href="tel:+33672283665">+33 6 72 28 36 65</a><br>
              <strong>Email</strong> <a href="mailto:aimeeduliere@gmail.com">aimeeduliere@gmail.com</a><br>
              <strong>Zone</strong> Paris & Petite couronne</p>
           <p class="fine">Réponse rapide. Aucune donnée partagée à des tiers.</p>
@@ -130,10 +105,10 @@ footer{border-top:1px solid #e6e9ea;background:#fff}
 <footer>
   <div class="container foot">
     <div><h4 style="font-family:'Playfair Display',serif;font-size:18px;margin:0 0 8px">Casimir</h4><p>Agent immobilier & chasseur de biens — Paris & Petite couronne.</p></div>
-    <div><h4>Coordonnées</h4><p>+33 6 12 34 56 78<br><a href="mailto:aimeeduliere@gmail.com">aimeeduliere@gmail.com</a></p></div>
+    <div><h4>Coordonnées</h4><p>+33 6 72 28 36 65<br><a href="mailto:aimeeduliere@gmail.com">aimeeduliere@gmail.com</a></p></div>
     <div>
       <h4>Mentions</h4>
-      <p class="fine">SASU SAS CASIMIR — 40, rue Palloy, 92110 Clichy — RCS Nanterre 982 013 864 — Carte Transaction CP19 2012 024 000 000 051 (CCI Paris IDF) — RCP Galian / MMA IARD Assurances.</p>
+      <p class="fine">SASU CASIMIR — 40, rue Palloy, 92110 Clichy — RCS Nanterre 982 013 864 — Carte Transaction CP19 2012 024 000 000 051 (CCI Paris IDF) — RCP Galian / MMA IARD Assurances.</p>
       <p class="fine">© 2025 Casimir — <a href="mentions.html" rel="nofollow">Mentions légales</a> · <a href="mentions.html#rgpd" rel="nofollow">Confidentialité</a></p>
     </div>
   </div>
